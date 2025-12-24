@@ -16,6 +16,13 @@
   </a>
 </p>
 
+## Relay Board
+<p align="center">
+  <a href="board.jpg">
+    <img src="board.jpg" width="200" />
+  </a>
+</p>
+
 ## Overview
 - Target: ESP32_Relay X2 Board with ESP32-WROOM-32E (N4)
 - Framework: Arduino ESP32 core (2.0.17 tested, 3.3.x compatible)
