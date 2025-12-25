@@ -154,5 +154,10 @@
 - Logout is explicit; browsers cannot reliably distinguish refresh vs close.
 
 ## Notes
-- If you edit `src/esp32-rfid/web/*`, regenerate `*.gz.h` assets.
 - Maintenance tasks can be done via UI or IO0 button (2-5s WiFi reset, 5-10s auth disable, 10s+ format).
+
+### Regenerate Web Assets
+- If you edit `src/esp32-rfid/web/*`, regenerate `*.gz.h` assets. Run `pack_web.py` from `src/esp32-rfid/web/`:
+```
+python pack_web.py
+```
